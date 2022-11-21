@@ -6,21 +6,22 @@
   * Note the page already has some default styling.
 
 ## Using Bootstrap classes
+* Style the page simply by using Bootstrap classes i.e. don't write any of your own CSS.
 * Try and make the page look like the following image
  ![Example page](tbl.png "Example")
-* Style the page simply by using Bootstrap classes i.e. don't write any of your own CSS. 
-* To start by focussing on the following. Most of these properties are covered by the utility classes https://getbootstrap.com/docs/5.0/utilities
+* Start by focussing on the following CSS properties. Most of these are covered by the utility classes in Bootstrap https://getbootstrap.com/docs/5.0/utilities
   * Padding 
   * Margins
   * Borders
   * Font weight
   * Line height
-  * Colours
-    * You won't be able to match the colours exactly. Choose colours from Bootstrap that are as close as you can get. 
-  * To get the right font for the headings (Garamond), the right colours for the headings (#45b2f5) and background (#d6d5d5) create your own CSS file that will overwrite the Bootstrap CSS.
+  * Colours. You won't be able to match the colours exactly. Choose colours from Bootstrap that are as close as you can get. 
 
-## Controlling layour
-* Have a look at the layouts and grids and see if you can create a simple repsonsive design where the layout is single column on small displays and switches to two columns on larger displays e.g.
+## Overriding the Bootstrap defaults
+* To get the right font for the headings (Garamond), the right colours for the headings (#45b2f5) and background (#d6d5d5) create your own CSS file that will overwrite the Bootstrap CSS.
+
+## Controlling layout
+* Have a look at the layouts and grids (https://getbootstrap.com/docs/5.0/layout/grid/) and see if you can create a simple responsive design where the layout is single column on small displays and switches to two columns on larger displays e.g.
 ![Responsive xample page](tbl-responsive.png "Responsive Example")
 * The design should be fixed width and always sit in the center of the page.
   
