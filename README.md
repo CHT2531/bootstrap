@@ -5,7 +5,7 @@
   * Note the link to the Bootstrap CSS file
   * Note the page already has some default styling.
 * Try and make the page look like the following image
-
+ ![Example page](tbl.png "Example")
 * Style the page simply by using Bootstrap classes i.e. don't write any of your own CSS. 
 * To start with focus on the following 
   * Padding 
