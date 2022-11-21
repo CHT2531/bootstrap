@@ -7,7 +7,7 @@
 * Try and make the page look like the following image
  ![Example page](tbl.png "Example")
 * Style the page simply by using Bootstrap classes i.e. don't write any of your own CSS. 
-* To start with focus on the following 
+* To start by focussing on the following 
   * Padding 
   * Margins
   * Borders
@@ -20,7 +20,7 @@
   * To get the right font for the headings (Garamond), the right colours for the headings (#45b2f5) and background (#d6d5d5) create your own CSS file that will overwrite the Bootstrap CSS.
   
   * Have a look at the layouts and grids and see if you can create a simple repsonsive design where the layout is single column on small displays and switches to two columns on larger displays e.g.
-  
+  ![Responsive xample page](tbl-responsive.png "Responsive Example")
   * The design should be fixed width and always sit in the center of the page.
   
   ## Customising Bootstrap
