@@ -27,10 +27,10 @@
   
 ## Customising Bootstrap
 The problem with the above is that: 
-1. We are over-writing the exsiting CSS with our own CSS
+1. We are over-writing the existing CSS with our own CSS. This is unnecessary duplication and makes the CSS hard to maintain. 
 2. We are asking the user to download the entire Bootstrap framework when we are only using a limited number of features. 
 
-Ideally we should import and extend the Bootstrap Sass code to create our own streamlined custom version of Bootstrap. Bootstrap provide info on how to do this at https://getbootstrap.com/docs/5.0/customize/sass/. They also provide a started project at https://github.com/twbs/bootstrap-npm-starter.
+Ideally we should import and extend the Bootstrap Sass code to create our own streamlined, custom version of Bootstrap. Bootstrap provide info on how to do this at https://getbootstrap.com/docs/5.0/customize/sass/. They also provide a started project at https://github.com/twbs/bootstrap-npm-starter.
  
 ## There's lots more
 * There's lots more you can do with Bootstrap e.g. components. Components are reusable commonly used UI elements e.g. navigation bars, accordians, buttons. Bootstrap 'off the shelf' components written in HTML, JavaScript and CSS which we can then customise. 
