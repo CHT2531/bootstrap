@@ -31,6 +31,61 @@ The problem with the above is that:
 2. We are asking the user to download the entire Bootstrap framework when we are only using a limited number of features. 
 
 Ideally we should import and extend the Bootstrap Sass code to create our own streamlined, custom version of Bootstrap. Bootstrap provide info on how to do this at https://getbootstrap.com/docs/5.0/customize/sass/. They also provide a started project at https://github.com/twbs/bootstrap-npm-starter.
+
+The following provides a walkthrough on how we could extend the Sass code:
+
+* Create a new folder
+* Inside this folder create a simple HTML page e.g. 
+```
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>Bootstrap Example</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" >
+  </head>
+  <body>
+     <h1>Bootstrap Example</h1>
+  </body>
+</html>
+```
+* Make the folder a Node.js project
+```
+npm init -y
+```
+* Install Bootstrap
+```
+npm i bootstrap --save
+```
+* inisde this project create a new folder named *scss*.
+* Create a new new sass file in this folder named *custom.scss*.
+* Copy the example Sass code from https://getbootstrap.com/docs/5.2/customize/sass/#importing (make sure you copy the second (option B) example).
+* Paste this code into *custom.scss*.
+* Make sure you have Sass installed.
+```
+npm install -g sass
+```
+* Run the ```sass`` command to watch your *custom.scss* file (you could also run this as an NPM script).
+```
+sass ./scss/custom.scss ./css/style.css --watch
+```
+* In *custom.scss* make a change e.g. we could change the colour of the headings:
+```
+...
+// 2. Include any default variable overrides here
+$headings-color:red;
+...
+```
+The advice is to use the existing Bootstrap variables .e. if you look in *_variables.scss* you will be able to find lots of variables for headings (and other elements). We set these variables in our *custom.scss* to override these default values.
+* Saving this file should generate a *style.css* file in a CSS folder. 
+* Add a link to *style.css* from your web page i.e.
+```
+ <link href="css/style.css" type="text/css" rel="stylesheet">
+```
+* If you open your webpage in a browser you should find that the heading is coloured red. 
+
+
+
+
  
 ## There's lots more
 * There's lots more you can do with Bootstrap e.g. components. Components are reusable commonly used UI elements e.g. navigation bars, accordians, buttons. Bootstrap 'off the shelf' components written in HTML, JavaScript and CSS which we can then customise. 
