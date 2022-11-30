@@ -76,16 +76,14 @@ $headings-color:red;
 ...
 ```
 The advice is to use the existing Bootstrap variables .e. if you look in *npm_modules/bootstrap/scss/_variables.scss* you will be able to find lots of variables for headings (and other elements). We set these variables in our *custom.scss* to override these default values.
-* Saving this file should generate a *style.css* file in a CSS folder. 
+* Saving this *custome.scss* should generate a *style.css* file in a *css* folder. 
 * Add a link to *style.css* from your web page i.e.
 ```
  <link href="css/style.css" type="text/css" rel="stylesheet">
 ```
 * If you open your webpage in a browser you should find that the heading is coloured red. 
 
+> Importantly, *custom.scss* only imports a 'bare bones' version of Bootstrap that is much smaller in file size.  When we specify values for variables we don't generate duplicate CSS rules.
 
-
-
- 
 ## There's lots more
 * There's lots more you can do with Bootstrap e.g. components. Components are reusable commonly used UI elements e.g. navigation bars, accordians, buttons. Bootstrap 'off the shelf' components written in HTML, JavaScript and CSS which we can then customise. 
