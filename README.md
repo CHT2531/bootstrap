@@ -83,7 +83,7 @@ The advice is to use the existing Bootstrap variables .e. if you look in *npm_mo
 ```
 * If you open your webpage in a browser you should find that the heading is coloured red. 
 
-> Importantly, *custom.scss* only imports a 'bare bones' version of Bootstrap that is much smaller in file size.  When we specify values for variables we don't generate duplicate CSS rules.
+> Importantly, *custom.scss* only imports a 'bare bones' version of Bootstrap that is much smaller in file size and when we specify values for variables we don't generate duplicate CSS rules.
 
 ## There's lots more
 * There's lots more you can do with Bootstrap e.g. components. Components are reusable commonly used UI elements e.g. navigation bars, accordians, buttons. Bootstrap 'off the shelf' components written in HTML, JavaScript and CSS which we can then customise. 
