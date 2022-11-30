@@ -56,15 +56,15 @@ npm init -y
 ```
 npm i bootstrap --save
 ```
-* inisde this project create a new folder named *scss*.
-* Create a new new sass file in this folder named *custom.scss*.
+* Inside this project create a new folder named *scss*.
+* Create a new new sass file in the *scss* folder named *custom.scss*.
 * Copy the example Sass code from https://getbootstrap.com/docs/5.2/customize/sass/#importing (make sure you copy the second (option B) example).
 * Paste this code into *custom.scss*.
 * Make sure you have Sass installed.
 ```
 npm install -g sass
 ```
-* Run the ```sass`` command to watch your *custom.scss* file (you could also run this as an NPM script).
+* Run the ```sass``` command to watch your *custom.scss* file (you could also run this as an NPM script).
 ```
 sass ./scss/custom.scss ./css/style.css --watch
 ```
@@ -75,7 +75,7 @@ sass ./scss/custom.scss ./css/style.css --watch
 $headings-color:red;
 ...
 ```
-The advice is to use the existing Bootstrap variables .e. if you look in *_variables.scss* you will be able to find lots of variables for headings (and other elements). We set these variables in our *custom.scss* to override these default values.
+The advice is to use the existing Bootstrap variables .e. if you look in *npm_modules/bootstrap/scss/_variables.scss* you will be able to find lots of variables for headings (and other elements). We set these variables in our *custom.scss* to override these default values.
 * Saving this file should generate a *style.css* file in a CSS folder. 
 * Add a link to *style.css* from your web page i.e.
 ```
