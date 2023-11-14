@@ -76,7 +76,7 @@ $headings-color:red;
 ...
 ```
 The advice is to use the existing Bootstrap variables .e. if you look in *npm_modules/bootstrap/scss/_variables.scss* you will be able to find lots of variables for headings (and other elements). We set these variables in our *custom.scss* to override these default values.
-* Saving this *custome.scss* should generate a *style.css* file in a *css* folder. 
+* Saving this *custom.scss* should generate a *style.css* file in a *css* folder. 
 * Add a link to *style.css* from your web page i.e.
 ```
  <link href="css/style.css" type="text/css" rel="stylesheet">
